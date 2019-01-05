@@ -13,6 +13,6 @@ RUN ls
 RUN go get ./
 RUN go build
 
-CMD go get github.com/pilu/fresh && fresh;
+CMD go get github.com/pilu/fresh && fresh
 
 EXPOSE 8080
