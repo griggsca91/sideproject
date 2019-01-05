@@ -1,0 +1,1 @@
+docker run -it -p 8080:8080 -v C:/Users/grigg/go/src/sideproject/backend:/go/src/github.com/griggsca91/sideproject/app app

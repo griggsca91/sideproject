@@ -9,7 +9,8 @@ services:
     ports:
       - 5432:5432
   web:
-    build: .
-    command: /app/main
+    image: app:latest
     ports:
-        - "8000:8080"
+        - "8080:8080"
+    volumes:
+        - ./backend:/go/src/github.com/griggsca91/sideproject/app
